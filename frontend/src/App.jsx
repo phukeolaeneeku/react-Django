@@ -10,8 +10,6 @@ function App() {
     return (
         <Router>
             <Routes>
-                {/* <Route path='/' Component={UserForm}/>
-                <Route path='/users' Component={UserList}/> */}
                 <Route path='/signupuser' Component={SignUpUser}/>
                 <Route path='/loginuser' Component={LoginUser}/>
                 <Route path='/' Component={Home}/>
