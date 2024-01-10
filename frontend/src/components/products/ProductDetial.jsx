@@ -1,5 +1,5 @@
 import React from "react";
-import abcd from "../img/abcd.jpg";
+import abcd from "../../img/abcd.jpg";
 
 const ProductDetial = () => {
   return (
