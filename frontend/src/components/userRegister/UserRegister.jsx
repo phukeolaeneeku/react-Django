@@ -1,4 +1,5 @@
 import React from 'react';
+import "./userRegister.css"
 import { IoArrowBack } from "react-icons/io5";
 
 const UserRegister = () => {
@@ -12,6 +13,7 @@ const UserRegister = () => {
             <h2>User registratio</h2>
             <div className="title">You are in the process of signing up as a user!</div>
             <form className='container_form'>
+              <div className='box_title'>Enter basic information</div>
               <input type="emaill" placeholder="Email" required />
               <input type="text" placeholder="Certication Number" required />
               <input type="text" placeholder="Nickname (maximun 10 characters)" required />

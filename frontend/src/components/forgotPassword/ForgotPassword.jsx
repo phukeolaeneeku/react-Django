@@ -10,9 +10,10 @@ const ForgotPassword = () => {
             <IoArrowBack id="box_icon_Back" />
             <p>Back</p>
         </Link> */}
-        <h2>Forgot password</h2>
-        <div className="title">Please verify your email and change your password!</div>
+        <h2>Find password</h2>
+        <div className="title">Please change your password after verifying your email!</div>
         <form className='container_form'>
+          <div className='box_infor'>Enter basic information</div>
           <input type="text" placeholder="Email" required />
           <input type="text" placeholder="Verification number" required />
           <input type="email" placeholder="New passwords" required />

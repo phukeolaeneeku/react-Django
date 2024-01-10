@@ -1,12 +1,14 @@
 import React from 'react'
+import "./sigupGoogle.css";
+import { Link } from "react-router-dom";
+import { MdArrowBack } from "react-icons/md";
 
 const SigupGoogle = () => {
   return (
     <>
     <div className="box_forgot">
-            {/* <Link to="/loginuser" className="box_iconBack">
-                <IoArrowBack id="box_icon_Back" />
-                <p>Back</p>
+            {/* <Link to="#" className="box_iconBack">
+              <MdArrowBack id='iconBack'/>
             </Link> */}
             <h2>Seller registratio</h2>
             <div className="title">
