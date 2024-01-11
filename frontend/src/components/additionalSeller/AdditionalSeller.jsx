@@ -1,16 +1,16 @@
 import React from 'react'
-import "./sigupGoogle.css";
+import "./additionalSeller.css"
 import { Link } from "react-router-dom";
 import { MdArrowBack } from "react-icons/md";
 
-const SigupGoogle = () => {
+const AdditionalSeller = () => {
   return (
     <>
-      <div className="box_forgot">
+        <div className="box_forgot">
             {/* <Link to="#" className="box_iconBack">
               <MdArrowBack id='iconBack'/>
             </Link> */}
-            <h2>Seller registratio</h2>
+            <h2>Additional seller information</h2>
             <div className="title">
                 Please enter additional information to register as a seller!
             </div>
@@ -39,4 +39,4 @@ const SigupGoogle = () => {
   )
 }
 
-export default SigupGoogle
+export default AdditionalSeller

@@ -8,6 +8,7 @@ import ForgotPassword from './components/forgotPassword/ForgotPassword';
 import UserRegister from './components/userRegister/UserRegister';
 import SellerRegister from './components/sellerRegister/SellerRegister';
 import SigupGoogle from './components/sigupforGoogle/SigupGoogle';
+import AdditionalSeller from './components/additionalSeller/AdditionalSeller';
 import More from './components/more/More';
 import Home from './components/Home';
 import ProductDetial from './components/products/ProductDetial';
@@ -23,6 +24,7 @@ function App() {
                 <Route path='/userRegister' Component={UserRegister}/>
                 <Route path='/sellerRegister' Component={SellerRegister}/>
                 <Route path='/sigupGoogle' Component={SigupGoogle}/>
+                <Route path='/additionalSeller' Component={AdditionalSeller}/>
                 <Route path='/more' Component={More}/>
                 <Route path='/' Component={Home}/>
                 <Route path='/productdetial' Component={ProductDetial}/>
